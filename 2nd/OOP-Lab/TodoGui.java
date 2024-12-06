@@ -31,10 +31,10 @@ public class TodoGui {
     JButton addButton = new JButton("Add");
     addButton.setPreferredSize(new Dimension(80, 30));
 
-    // add functionality to the button
-    // instead of implementing a the ActionListener interface in a new class we make use of the
-    // anonymous clas system
-    // in a real class input and defaultlistmodel would be constructor input
+    // Add functionality to the button
+    // Instead of implementing the ActionListener interface in a new class we make use of the
+    // anonymous class system
+    // In a real class input and defaultListModel would be constructor input
     addButton.addActionListener(
         new ActionListener() {
           @Override
