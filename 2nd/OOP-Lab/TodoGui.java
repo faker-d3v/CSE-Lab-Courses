@@ -1,3 +1,4 @@
+// You may run this as a standalone file
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
