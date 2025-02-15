@@ -1,20 +1,55 @@
 body {
-    background-color: #cccccc;
-    font-size: 20px;
+    background-color: #f4f4f4; /*make the body appear slightly different from the div*/
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
 }
 
+.main-container {
+    background: white;
+    padding: 20px; /* padding to the div from all 4 sides */
+    border-radius: 10px; /* round the border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /*h-offset v-offset shadow-blur (r,g,b,opacity)*/
+}
 
 h1 {
-    background-color:slategray;
+    background-color: slategray;
+    color: white;
     text-align: center;
-    margin-top: 10px;
+    padding: 15px; /*top & bottom padding*/
+    border-radius: 5px;
 }
 
 
-q {
-    color: gray;
+p {
+    line-height: 1.6; /*looks better with line spacing*/
+    text-align: justify; /*text must fill each line*/
+}
+
+table {
+    width: 100%; /*use the full horizontal space of the div*/
+    margin-top: 20px; /*gap between paragraph and table*/
 }
 
 td {
-  padding: 15px;
+    width: 50%; /*orelse one column will be bigger than the other*/
+    padding: 15px;
+    background: #e0e0e0;
+    border-radius: 5px; /*rounded corners*/
+}
+
+.img-container{  
+    text-align: center; /*div tag to bring image to the middle*/
+    margin-top: 20px; /*spacing betweeen table & image*/
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /*h-offset v-offset shadow-blur (r,g,b,opacity)*/
+}
+
+q {
+    display: block; /*start on a new line and take full horizontal space*/
+    font-style: italic;
+    color: gray;
+    margin-top: 10px; /*some distance from the image*/
 }
