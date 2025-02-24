@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Input Form</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form action="/submit.html">
+                <label class="lb1" for="i1">First name</lasdbel>
+                    <input class="ds1" id="i1" placeholder="Your first name" />
+                    <br><br>
+                    <label  class="lb1" for="i2">Last name</lasdbel>
+                        <input class="ds1" id="i2" placeholder="Your first name"/>
+                        <br><br>
+                        <label class="lb1" for="email">Email</label>
+                        <input class="ds1" type="email" id="email" placeholder="email@domain.com">
+                        <br><br>
+
+
+                        <label class="lb1">University</label>
+                        <br><input id="r1" type="radio" name="XX"> 
+                        <label for="r1">NSU</label>
+                        <br><input id="r2" type="radio" name="XX"> 
+                        <label for="r2">UIU</label>
+                        <br><input id="r3" type="radio" name="XX"> 
+                        <label for="r3">UITS</label>
+                        <br><br>
+
+                        <label class="lb1"><strong>Competetion</strong></label>
+                        <br><input id="c1" type="checkbox">
+                        <label for="c1">Programming contest</label>
+                        <br><input id="c2" type="checkbox"> 
+                        <label for="c2">CTF</label>
+                        <br><input id="c3" type="checkbox"> 
+                        <label for="c3">Scavenger hunt</label>
+                        <br><br>
+
+                        <label class="lb1" for="DOB">Date of Birth </label>
+                        <br><input class="ds1" type="date" id="DOB">
+                        <br><br>
+
+                        <label class="lb1" for="DOB">Phone number</label>
+                        <br><input class="ds1" type="tel" id="phone" placeholder="01X-XXXXXXXXX" pattern="\d{3}-\d{8}">
+                        <br><br>
+
+
+                        <label class="lb1" for="cv">CV</label>
+                        <br><input class="ds1" type="file" id="cv">
+                        <br><br>
+
+
+                        <label class="lb1" for="team">Team Member</label>
+                        <br><input class="ds1" type="number" id="team" value="2" min="1" max="4">
+                        <br><br>
+
+
+                        <label class="lb1" for="pass">Password</label>
+                        <br><input class="ds1" type="password" id="pass" placeholder="Enter password">
+                        <br><br>
+
+
+                        <label class="lb1" for="forgot">Forgot your password</label>
+                        <br><input class="ds1" type="reset" id="forgot" value="Reset">
+                        <br><br>
+
+
+                        <input class="ds1" type="submit">
+
+            </form>
+        </div>
+    </body>
+</html>
