@@ -1,3 +1,64 @@
-box {
-    
+/* center like there's no tomorrow */
+body {
+    background-color: #ece9e4;
+}
+
+.leet {
+    height: 52px;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.leet:hover {
+    animation-name: a1;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a1 {
+    /*x axis, y axis*/
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-250px, -150px);
+    }
+    50% {
+        transform: translate(0px, -300px);
+    }
+    75% {
+        transform: translate(250px, -250px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 0.5em;
+
+  color: #090909;
+
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
 }
