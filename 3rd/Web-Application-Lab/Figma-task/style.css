@@ -1,0 +1,119 @@
+* {
+    font-family: "Questrial", sans-serif;
+}
+
+.box1 {
+    position: absolute;
+    height: 505px;
+    width: 505px;
+
+    /* background-color: red; */
+    border-style: solid;
+    border-color: #FD5B2F;
+    border-width: 3px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: none;
+
+    margin-top: 10vh;
+    margin-left: 7vw;
+}
+
+#container {
+    padding-top: 10vh;
+    padding-left: 7vw;
+    display:flex;
+}
+
+
+#big {
+    height: 700px;
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+
+#calendar {
+    margin:0;
+    padding:0;
+    position: relative;
+    left: -115px;
+    top: 57vh;
+
+    height: 180px; 
+    width: 180px;
+}
+
+#text-container {
+    position: relative;
+    margin: 0;
+    padding-right: 7vw;
+    padding-top: 17vh;
+}
+
+#pretitle {
+    margin:0;
+    padding:0;
+    padding-bottom: 27px;
+    color: #FD5B2F;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#title {
+    margin:0;
+    padding:0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+#talk {
+    margin:0;
+    padding:0;
+    padding-right: 7vw;
+    line-height: 2;
+    line-width: 2;
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+
+
+#button1{
+    height: 50px;
+    width: 200px;
+    margin-right: 40px;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: #FD5B2F;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#button2{
+    background:url('img/button-icon.png') no-repeat left center;
+    height: 50px;
+    width: 200px;
+    padding-left: 40px;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: transparent;
+    color:#FD5B2F;
+    cursor: pointer;
+    border-color: transparent;
+    outline: none;
+}
+
+
+#cng {
+    padding-left: 360px;
+}
